@@ -1,10 +1,11 @@
 import "./App.css";
+import video from "../src/assets/videos/amor.mp4"
 
 function App() {
   return (
     <>
       <div className="container">
-        <video src="../src/assets/videos/amor.mp4" autoPlay loop muted></video>
+        <video src={video} autoPlay loop muted></video>
       </div>
     </>
   );
