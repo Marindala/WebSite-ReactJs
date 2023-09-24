@@ -36,6 +36,12 @@
     font-size: 1.8rem;
   }
   
+  img.img-logo{
+    margin-left: 0.5rem;
+   
+  }
+
+  
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -66,7 +72,7 @@
   }
   
   .fa-bars {
-    color: #c91414;
+    color: #160f0f;
   }
   
   .nav-links-mobile {

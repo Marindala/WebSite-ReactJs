@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Button from "../Button/Button.jsx";
 import "./Navbar.css";
+import img from "../../assets/medium.svg"
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
         <div className="navbar-container">
           <a to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Alquimia Digital
-            <i className="fab fa-typo3" />
+            <img src={img} className="img-logo" width={80} height={60}></img>
           </a>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
