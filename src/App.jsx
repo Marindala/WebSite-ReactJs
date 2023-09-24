@@ -1,16 +1,23 @@
-import "./App.css";
-import video from "../src/assets/videos/amor.mp4"
-import Navbar from "./components/Navbar/Navbar";
+
+
+import Navbar from '../src/components/Navbar/Navbar';
+import './App.css';
+import Home from './Pages/Home/Home.jsx';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <div className="container">
-        <video src={video} autoPlay loop muted></video>
-        <Navbar/>
-      </div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        
+        </Routes>
+      </Router>
     </>
   );
 }
 
 export default App;
+
