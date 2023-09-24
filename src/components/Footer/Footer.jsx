@@ -2,6 +2,7 @@
 import './Footer.css';
 import Button  from '../Button/Button';
 import { Link } from 'react-router-dom';
+import img from "../../assets/mediumWhite.svg"
 
 function Footer() {
   return (
@@ -65,7 +66,7 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Alquimia Digital
-              <i className='fab fa-typo3' />
+              <img src={img} className="img-logo" width={80} height={60}></img>
             </Link>
           </div>
           <small className='website-rights'>Derechos Reservados © 2023</small>
