@@ -2,7 +2,6 @@ import ImWhatsapp from "../../assets/whatsapp.svg";
 import "./ButtonW.css";
 
 const ButtonW = () => {
-
   return (
     <div className="container-whats">
       <a
@@ -10,7 +9,11 @@ const ButtonW = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={ImWhatsapp} width={60} height={60}  className="whatsApp"
+        <img
+          src={ImWhatsapp}
+          width={60}
+          height={60}
+          className="whatsApp"
           alt="WhatsApp"
         />
       </a>
