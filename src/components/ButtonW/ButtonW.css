@@ -1,0 +1,14 @@
+.container-whats {
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  z-index: 50;
+}
+
+.whatsApp {
+  transition: color 0.3s;
+}
+
+.whatsApp:hover {
+  opacity: 0.5;
+}

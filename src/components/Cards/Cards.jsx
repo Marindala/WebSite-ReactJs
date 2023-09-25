@@ -1,6 +1,7 @@
 
 import './Cards.css';
 import CardItem from '../CardItem/CardItem';
+//import AboutUs from '../AboutUs/AboutUs';
 
 function Cards() {
   return (
@@ -48,6 +49,7 @@ function Cards() {
               path='/sign-up'
             />
           </ul> */}
+          {/* <AboutUs/> */}
         </div>
       </div>
     </div>

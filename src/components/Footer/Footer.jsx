@@ -1,6 +1,7 @@
 
 import './Footer.css';
 import Button  from '../Button/Button';
+
 import { Link } from 'react-router-dom';
 import img from "../../assets/mediumWhite.svg"
 
@@ -111,6 +112,7 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </Link>
+           
           </div>
         </div>
       </section>
