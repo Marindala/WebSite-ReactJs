@@ -1,5 +1,6 @@
 :root {
     --primary: #fff;
+    --secondary:#131111;
   }
   
   .btn {
@@ -18,9 +19,10 @@
   
   .btn--outline {
     background-color: transparent;
-    color: #fff;
+    color: #0e0d0d;
     padding: 8px 20px;
-    border: 1px solid var(--primary);
+   /*  border: 1px solid var(--primary); */
+    border: 1px solid var(--secondary);
     transition: all 0.3s ease-out;
   }
   
