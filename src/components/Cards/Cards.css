@@ -24,8 +24,8 @@ h1 {
 
 .cards__items {
   margin-bottom: 24px;
-  width: 1400px;
-  height: 600px;
+  width: 120%; 
+  height: auto;
 
 }
 
@@ -109,9 +109,18 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 360px) {
   .cards__items {
     display: flex;
+    flex-wrap: wrap;
+  }
+} */
+
+@media only screen and (min-width: 768px) {
+  .cards__items {
+    display: flex;
+    width: 1400px; 
+    height: 600px; 
   }
 }
 
