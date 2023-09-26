@@ -12,3 +12,12 @@
 .whatsApp:hover {
   opacity: 0.5;
 }
+
+
+/* joinchat__button__open {
+  width: var(--s);
+  height: var(--s);
+  border-radius: 50%;
+  background: rgb(0 0 0/0) var(--joinchat-ico) 50% no-repeat;
+  background-size: 60%;
+} */
