@@ -2,7 +2,7 @@
 import '../../App.css';
 //import Button  from '../Button/Button';
 import './HeroSection.css';
-import video from '../../assets/videos/amor.mp4'
+import video from '../../assets/videos/video3.mp4'
 
 function HeroSection() {
   return (
