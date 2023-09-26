@@ -1,6 +1,7 @@
 
 import './Cards.css';
 import CardItem from '../CardItem/CardItem';
+import img from '../../assets/imageCard/card.jpg'
 //import AboutUs from '../AboutUs/AboutUs';
 
 function Cards() {
@@ -11,19 +12,18 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src=''
+              src={img}
               text='Landing Page'
-              label='Info'
-              path='/services'
+              path='/'
             />
             <CardItem
-              src=''
+              src={img}
               text='Diseño Básico'
               label='Info'
               path='/services'
             />
              <CardItem
-              src=''
+              src={img}
               text='Diseño Ecommerce'
               label='Info'
               path='/services'
