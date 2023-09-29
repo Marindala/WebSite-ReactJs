@@ -29,6 +29,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    
   }
   
   .fa-typo3 {
@@ -166,3 +167,18 @@
       transition: 250ms;
     }
   }
+
+  @media screen and (max-width: 960px) {
+    /* Estilos aplicados cuando el ancho de la pantalla es de 960px o menos */
+  
+    /* ... otros estilos ... */
+  
+    .navbar-logo {
+      /* Esto apunta al elemento de logo con la clase 'navbar-logo' */
+      display: none;
+      /* Esta propiedad oculta el logo al establecer su propiedad de visualización en 'none' */
+    }
+  
+    /* ... otros estilos ... */
+  }
+  
