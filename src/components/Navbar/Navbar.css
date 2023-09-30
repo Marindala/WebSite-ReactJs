@@ -182,3 +182,13 @@
     /* ... otros estilos ... */
   }
   
+
+
+ /* Dos selectores de css, que tienen la mismas propiedades y valores, pero cambia el nombre de clase en cada sección, esta es la forma de poner dos nombres de clases, Algo no parece correcto. Agregó el valor de atributo de clase correcto al elemento p con Donut como texto, pero no definió un selector para él.
+
+  La regla CSS para la clase de tipo ya establece las propiedades que desea. Agregue la clase de postre como selector adicional para esta regla CSS.
+
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  } */
