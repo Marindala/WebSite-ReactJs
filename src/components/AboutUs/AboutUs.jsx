@@ -6,4 +6,5 @@ const AboutUs = () => {
   )
 }
 
+/* son las 23.45 */
 export default AboutUs
