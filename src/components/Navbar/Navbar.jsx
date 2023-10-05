@@ -53,13 +53,13 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a
+             {/*  <a
                 href="#Contact"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
                 Contacto
-              </a>
+              </a> */}
             </li>
           </ul>
           {button && <Button buttonStyle="btn--outline">Contacto</Button>}
