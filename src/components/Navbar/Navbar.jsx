@@ -54,7 +54,7 @@ const Navbar = () => {
 
             <li>
               <a
-                to="/sign-up"
+                href="#Contact"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >

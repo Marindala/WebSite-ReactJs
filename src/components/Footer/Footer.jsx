@@ -7,7 +7,7 @@ import img from "../../assets/mediumWhite.svg"
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className='footer-container' id="Contact">
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Alquimia Digital 
